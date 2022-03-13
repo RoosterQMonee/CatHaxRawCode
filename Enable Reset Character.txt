@@ -10,4 +10,5 @@
 while true do
      game:GetService("StarterGui"):SetCore("ResetButtonCallback", true)
      game:GetService("RunService").RenderStepped:Wait()
+     wait(1)
 end
